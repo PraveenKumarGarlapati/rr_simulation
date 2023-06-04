@@ -36,6 +36,6 @@ ENV PORT=8080
 
 EXPOSE 808
 
-# CMD ["streamlit", "run", "main.py", "--server.port=8080", "--server.address=0.0.0.0"]
+CMD ["streamlit", "run", "main.py", "--server.port=8080", "--server.address=0.0.0.0"]
 
-CMD streamlit run --server.port 8080 --server.enableCORS false main.py
+# CMD streamlit run --server.port 8080 --server.enableCORS false main.py
