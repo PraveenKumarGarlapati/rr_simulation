@@ -26,15 +26,9 @@ FROM python:3.9
 
 WORKDIR /app
 
-COPY requirements.txt ./
+COPY . ./
 
 RUN pip install -r requirements.txt
-
-COPY . .
-
-ENV PORT=8080
-
-EXPOSE 808
 
 CMD ["streamlit", "run", "main.py", "--server.port=8080", "--server.address=0.0.0.0"]
 

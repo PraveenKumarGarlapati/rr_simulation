@@ -1,18 +1,3 @@
-# import pandas as pd
-# import streamlit as st
-
-# def main():
-#     st.write("This is a test_ Testing Again")
-
-# # This is a test change
-
-
-
-
-# if __name__ == "__main__":
-#     main()
-
-## Check
 
 import streamlit as st
 import pandas as pd
@@ -57,6 +42,8 @@ st.write('<style>body { font-size: 50px; }</style>', unsafe_allow_html=True)
 # Streamlit app
 def main():
     st.title("Roll Rate Simulation")
+    st.title("Deploy Timestamp - 1327 - Jun6")
+
 
     # Dropdown inputs for filtering
     ###################### Add your dropdowns and their values here ##############################
